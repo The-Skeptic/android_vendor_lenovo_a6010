@@ -58,43 +58,58 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libqti-utils.so:system/vendor/lib/libqti-utils.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:system/vendor/lib/vendor.qti.hardware.perf@1.0.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:system/vendor/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:system/vendor/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libqti-iopd-client.so:system/vendor/lib/libqti-iopd-client.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/libESXEGL_adreno.so:system/vendor/lib64/egl/libESXEGL_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib64/egl/libESXGLESv1_CM_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/libESXGLESv2_adreno.so:system/vendor/lib64/egl/libESXGLESv2_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/libRBEGL_adreno.so:system/vendor/lib64/egl/libRBEGL_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib64/egl/libRBGLESv1_CM_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
+    vendor/lenovo/a6000/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s_2gong_camcorder.so:system/vendor/lib/libactuator_dw9718s_2gong_camcorder.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s_2gong_camera.so:system/vendor/lib/libactuator_dw9718s_2gong_camera.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s_2gong.so:system/vendor/lib/libactuator_dw9718s_2gong.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s_camcorder.so:system/vendor/lib/libactuator_dw9718s_camcorder.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s_camera.so:system/vendor/lib/libactuator_dw9718s_camera.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_gc2355_8916_common.so:system/vendor/lib/libchromatix_gc2355_8916_common.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video.so:system/vendor/lib/libchromatix_gc2355_8916_default_video.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_gc2355_8916_preview.so:system/vendor/lib/libchromatix_gc2355_8916_preview.so \
@@ -108,35 +123,21 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so:system/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_imx219_q8n13a_preview.so:system/vendor/lib/libchromatix_imx219_q8n13a_preview.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libchromatix_imx219_q8n13a_snapshot.so:system/vendor/lib/libchromatix_imx219_q8n13a_snapshot.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -164,46 +165,44 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/lenovo/a6000/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/lenovo/a6000/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/lenovo/a6000/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/lenovo/a6000/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/lenovo/a6000/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
@@ -222,6 +221,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6000/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lenovo/a6000/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/lenovo/a6000/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so
+
 
 PRODUCT_PACKAGES += \
     QPerformance \
